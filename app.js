@@ -92,6 +92,7 @@ const i18n = {
         "location-title": "El plan",
         "location-text": "Celebraremos en Casa Catani, Barisano. Queremos disfrutar del aire libre y la buena compañía.",
         "ceremonia-text":"La ceremonia tendrá lugar en la Sala de los Espejos, en el ayuntamiento de Cesena.",
+        "inicio":"Como todo ha empezado",
         
         /* NUEVO CRONOGRAMA ES */
         "ceremony-time": "12:00",
@@ -142,7 +143,6 @@ const i18n = {
         "lbl-especificar": "Por favor, especifica:"
     },
     it: {
-        "welcome-msg": "Ciao! Siamo felici che tu sia qui.",
         "btn-search": "Scopri il mio invito",
         "story-text": "La nostra storia non si capisce senza una mappa, una lingua condivisa e quell'Erasmus a Urbino. Vogliamo festeggiare che la nostra destinazione preferita rimane stare insieme.",
         "rsvp-reserva": "Ciao {name}! Abbiamo riservato {n} posto/i per te.",
@@ -159,6 +159,7 @@ const i18n = {
         "location-title": "Il piano",
        "location-text": "Festeggeremo a Casa Catani, Barisano. Vogliamo godere dell'aria aperta e della buona compagnia.",
         "ceremonia-text": "La cerimonia avrà luogo nella Sala degli Specchi, presso il comune di Cesena.",
+        "inicio":"Come tutto è iniziato",
         
         /* NUOVO CRONOGRAMA IT */
         "ceremony-time": "12:00",

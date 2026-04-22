@@ -187,16 +187,16 @@ button#btn-search, button#btn-submit {
 /* Botón secundario actualizado (Botón Mapa y Confirmar asistencia) */
 .btn-secundario {
     display: inline-block;
-    margin-top: 5px;
+    margin-top: 80px;
     margin-bottom: 25px; 
     padding: 12px 30px;
     border: 1.5px solid var(--naranja);
-    color: var(--naranja);
-    background-color: #FFFFFF;
+    color: var(--blanco);
+    background-color: #5FB49C;
     text-decoration: none;
     border-radius: 30px;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     transition: background-color 0.3s ease;
 }
 
@@ -385,7 +385,7 @@ footer {
 
 /* Ilustraciones de las tarjetas hechas más grandes */
 .ilustracion-icono {
-    width: 100px; 
+    width: 150px; 
     height: auto;
     margin: 0 auto 15px auto;
     display: block;
@@ -454,10 +454,14 @@ footer {
 }
 
 .decoracion-img img {
-    width: 90px; 
+    width: 120px; 
     opacity: 0.8; 
 }
 
+#deadline-text {
+    font-size: 0.9rem;
+    margin-bottom: 80px;
+}
 /* =========================
    ANIMACIONES Y TRANSICIONES
 ========================= */
@@ -478,6 +482,7 @@ html {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 /* Transición fluida para el cambio de pantalla inicial */
 #access-section, #hero-photo {
