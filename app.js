@@ -123,7 +123,8 @@ const i18n = {
         "select-no": "No",
         "select-yes": "Sí",
         "sending": "Enviando...",
-        "sent-ok": "¡Datos guardados! Gracias.",
+        "sent-ok": "¡Datos guardados!",
+        "success-title": "¡Gracias!",
         "sent-error": "Error al enviar. Inténtalo de nuevo.",
         "deadline-text": "Por favor, confirmar antes del 30 de junio de 2026",
         "countdown-suffix": "PARA EL GRAN DÍA",
@@ -182,7 +183,8 @@ const i18n = {
         "select-no": "No",
         "select-yes": "Sì",
         "sending": "Invio in corso...",
-        "sent-ok": "Dati salvati! Grazie.",
+        "sent-ok": "Dati salvati!",
+        "success-title": "Grazie!",
         "sent-error": "Errore durante l'invio. Riprova.",
         "deadline-text": "Per favore, conferma entro il 30 giugno 2026",
         "countdown-suffix": "PER IL GRANDE GIORNO",
@@ -392,11 +394,29 @@ document.getElementById('rsvp-form').addEventListener('submit', function(e) {
         mode: 'no-cors',
         body: JSON.stringify(data)
     })
-    .then(() => {
-        alert(t["sent-ok"]);
+ .then(() => {
+        // 1. Crear el mensaje personalizado
+        let mensajePersonalizado = t["sent-ok"].replace('{name}', invitadoActual.nombre);
+        
+        // 2. Ocultar el formulario y mostrar el mensaje de éxito
+        document.getElementById('rsvp-form').style.display = 'none';
+        document.getElementById('texto-exito').innerText = mensajePersonalizado;
+        document.getElementById('mensaje-exito').style.display = 'block';
+        
         btn.innerText = t["btn-submit"];
         btn.disabled = false;
-        setTimeout(() => { modal.style.display = "none"; }, 1000);
+
+        // 3. Cerrar el modal suavemente después de 3.5 segundos para que les dé tiempo a leerlo
+        setTimeout(() => { 
+            modal.classList.remove("show"); 
+            setTimeout(() => { 
+                modal.style.display = "none"; 
+                // Restauramos la vista original por si lo vuelven a abrir
+                document.getElementById('rsvp-form').style.display = 'block';
+                document.getElementById('mensaje-exito').style.display = 'none';
+                document.getElementById('rsvp-form').reset(); // Limpiamos los campos
+            }, 400); 
+        }, 3500);
     })
     .catch(error => {
         console.error('Error:', error);
