@@ -23,7 +23,7 @@ const invitados = [
     { nombre: "Bella González", puestos: 1, idioma: "es" },
     {nombre:"José Manuel García", puestos:1, idioma:"es"},
     { nombre: "Luis García", puestos: 1, idioma: "es" },
-    { nombre: "Belén Martinez", puestos: 1, idioma: "es" },
+    { nombre: "Belén Martínez", puestos: 1, idioma: "es" },
     { nombre: "Inmaculada Aponte", puestos: 2, idioma: "es" },
     { nombre: "Alejandro Prieto", puestos: 2, idioma: "es" },
     { nombre: "Juanjo Prieto", puestos: 1, idioma: "es" },
