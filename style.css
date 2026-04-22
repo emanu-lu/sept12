@@ -26,6 +26,9 @@ body {
     -webkit-font-smoothing: antialiased;
     padding-left: 20px;
     padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 input, textarea, select, button, p, .timeline__desc, .card__text, .iban-box {
@@ -172,8 +175,8 @@ input[type="text"], textarea, select {
 
 button#btn-search, button#btn-submit {
     width: 100%;
-    background-color:#98DFAF;
-    color: var(--texto);
+    background-color:#5FB49C;
+    color: var(--blanco);
     padding: 15px;
     border: none;
     border-radius: 10px;
@@ -246,12 +249,14 @@ button#btn-search, button#btn-submit {
 
 footer {
     padding: 10px;
-    font-size: 0.8rem;
     opacity: 0.7;
     text-transform: uppercase;
-    font-family: 'Sen', sans-serif;
+    margin-top: auto;
 }
-
+footer p{
+    font-family: 'Reenie Beanie', sans-serif;
+    font-size: 1.1rem;
+}
 /* Estilos para el Modal */
 .modal {
     display: none;

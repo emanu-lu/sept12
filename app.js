@@ -195,10 +195,6 @@ const i18n = {
         "success-title": "Grazie!",
         "sent-error": "Errore durante l'invio. Riprova.",
         "deadline-text": "Per favore, conferma entro il 30 giugno 2026",
-        "countdown-suffix": "PER IL GRANDE GIORNO",
-        "day-letter": "g",
-        "hour-letter": "o",
-        "minute-letter": "m",
         "ceremonia-titulo":"La Cerimonia",
         "casa-titulo":"Il Ricevimento",
         "opt-ninguna": "Nessuna / Mangio di tutto",
@@ -206,7 +202,7 @@ const i18n = {
         "opt-vegan": "Vegano",
         "opt-cel": "Celiaco / Senza glutine",
         "opt-lac": "Intollerante al lattosio",
-        "opt-otra": "Altra restrizione / Ne ho diverse",
+        "opt-otra": "Altro / ne ho varie",
         "lbl-especificar": "Per favore, specifica:"
 
     }
