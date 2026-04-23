@@ -21,12 +21,14 @@ const invitados = [
 
     // FAMIGLIA LUCI (Spagnolo)
     { nombre: "Bella González", puestos: 1, idioma: "es" },
+    { nombre: "Bella María González", puestos: 1, idioma: "es" },
     {nombre:"José Manuel García", puestos:1, idioma:"es"},
     { nombre: "Luis García", puestos: 1, idioma: "es" },
     { nombre: "Belén Martínez", puestos: 1, idioma: "es" },
     { nombre: "Inmaculada Aponte", puestos: 2, idioma: "es" },
     { nombre: "Alejandro Prieto", puestos: 2, idioma: "es" },
     { nombre: "Juanjo Prieto", puestos: 1, idioma: "es" },
+    { nombre: "María Sanjuan Aponte", puestos: 2, idioma: "es" },
     { nombre: "María Sanjuan", puestos: 2, idioma: "es" },
     { nombre: "Victoria Aponte", puestos: 2, idioma: "es" },
     { nombre: "Mariló Aponte", puestos: 3, idioma: "es" },
@@ -77,10 +79,10 @@ const i18n = {
     es: {
         "welcome-msg": "¡Hola! Estamos felices de que estés aquí.",
         "btn-search": "Descubrir mi invitación",
-        "story-text": "Nuestra historia no se entiende sin un mapa, un idioma compartido y aquel Erasmus en Urbino. Queremos celebrar que, después de tantos viajes y kilómetros, nuestro destino favorito sigue siendo estar juntos. ¡Gracias por acompañarnos!",
+        "story-text": "Nuestra historia no se entiende sin un mapa, un idioma compartido y aquel Erasmus en Urbino. Queremos celebrar que, después de tantos viajes y kilómetros, nuestro destino favorito sigue siendo estar juntos.¡Gracias por acompañarnos!",
         "rsvp-reserva": "¡Hola {name}! Hemos reservado {n} puesto(s) para ti.",
         "btn-open-rsvp": "Confirmar asistencia",
-        "guest-1-label": "Invitad@ 1",
+        "guest-1-label": "Querid@ invitad@",
         "label-attendance": "¿Asistirá?",
         "opt-yes": "¡Allí estaré!",
         "opt-no": "No puedo, me lo pierdo",
@@ -91,7 +93,7 @@ const i18n = {
         "btn-submit": "Confirmar",
         "location-title": "El plan",
         "location-text": "Celebraremos en Casa Catani, Barisano. Queremos disfrutar del aire libre y de la buena compañía.",
-        "ceremonia-text":"La celebración matrimonio tendrá lugar en la Sala de los Espejos, en el ayuntamiento de Cesena.",
+        "ceremonia-text":"La celebración del matrimonio tendrá lugar en la Sala de los Espejos, en el ayuntamiento de Cesena.",
         "inicio":"Como todo ha empezado",
         
         /* NUEVO CRONOGRAMA ES */
@@ -103,7 +105,7 @@ const i18n = {
         "bus-desc": "Salida hacia Casa Catani desde Cesena.",
         "party-time": "13:30",
         "party-title": "Recepción",
-        "party-desc": "Cóctel y comida a Casa Catani.",
+        "party-desc": "Cóctel y comida en Casa Catani.",
 
         "travel-title": "El viaje",
         "hotel-title-card": "Alojamiento",
