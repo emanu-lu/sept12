@@ -4,7 +4,7 @@ const invitados = [
     { nombre: "Emanuele Ceccarelli", puestos: 1, idioma: "it" },
     // FAMIGLIA EMI (Italiano)
     { nombre: "Sara Ferrotti", puestos: 1, idioma: "it" },
-    { nombre: "Gianluca Ceccarelli", puestos: 1, idioma: "it" },
+    { nombre: "Gian luca Ceccarelli", puestos: 1, idioma: "it" },
     { nombre: "Martina Ceccarelli", puestos: 2, idioma: "it" },
     { nombre: "Letizia Ceccarelli", puestos: 2, idioma: "it" },
     { nombre: "Michele Ceccarelli", puestos: 1, idioma: "it" },
@@ -16,8 +16,8 @@ const invitados = [
     { nombre: "Raffi", puestos: 2, idioma: "it" },
     { nombre: "Loredana", puestos: 2, idioma: "it" },
     { nombre: "Lola", puestos: 2, idioma: "it" },
-    { nombre: "Alessandro Gentili", puestos: 1, idioma: "it" },
-    { nombre: "Mara Buccella", puestos: 1, idioma: "it" },
+    { nombre: "Alessandro Gentili", puestos: 2, idioma: "it" },
+
 
 
     // FAMIGLIA LUCI (Spagnolo)
