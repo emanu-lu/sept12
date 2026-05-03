@@ -11,7 +11,7 @@ const invitados = [
     { nombre: "Rita Ceccarelli", puestos: 2, idioma: "it" },
     { nombre: "Claudia Ferrotti", puestos: 2, idioma: "it" },
     { nombre: "Marco Serra", puestos: 2, idioma: "it" },
-    { nombre: "Daniele Serra", puestos: 1, idioma: "it" },
+    { nombre: "Daniele Serra", puestos: 2, idioma: "it" },
     { nombre: "Federico Serra", puestos: 2, idioma: "it" },
     { nombre: "Raffi", puestos: 2, idioma: "it" },
     { nombre: "Loredana", puestos: 2, idioma: "it" },
