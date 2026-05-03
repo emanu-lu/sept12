@@ -16,7 +16,8 @@ const invitados = [
     { nombre: "Raffi", puestos: 2, idioma: "it" },
     { nombre: "Loredana", puestos: 2, idioma: "it" },
     { nombre: "Lola", puestos: 2, idioma: "it" },
-    { nombre: "Sandro", puestos: 2, idioma: "it" },
+    { nombre: "Alessandro Gentili", puestos: 1, idioma: "it" },
+    { nombre: "Mara Buccella", puestos: 1, idioma: "it" },
 
 
     // FAMIGLIA LUCI (Spagnolo)
